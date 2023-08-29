@@ -1,0 +1,61 @@
+/* Write your code here. */
+.emoji-game-nav-bar-container {
+  background-color: #ffffff33;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-and-score-container {
+  flex-basis: 80%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-game-logo {
+  width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-game-logo {
+      width: 50px;
+  }
+}
+
+.emoji-game-title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-game-title {
+      font-size: 24px;
+  }
+}
+
+.emoji-game-scores-container {
+  display: flex;
+}
+
+.emoji-game-score {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-game-score {
+      font-size: 24px;
+      margin-left: 32px;
+  }
+}
